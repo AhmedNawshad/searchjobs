@@ -1,0 +1,59 @@
+/*
+ * Your custom CSS here...
+ */
+.question-type-wrapper{
+    width:100%;
+    background:inherit;
+    padding:10px;
+    margin:10px 0;
+    box-sizing:border-box;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    border:1px solid #ddd;
+}
+.q-select-item{
+    width:120px;
+    height:40px;
+    display:flex;
+    border:1px solid #ddd;
+    justify-content: space-around;
+    align-items:center;
+    margin:5px;
+    background: #fff;
+    border-radius:2px ;
+    cursor:pointer;
+}
+
+.avatar-container{
+    display: inline-block;
+}
+
+.user-photo{
+    border: 5px solid #e8ecef;
+    border-radius: 3px;
+    width: 100px;
+    height: 100px;
+}
+
+.user-photo:hover{
+    cursor: pointer;
+}
+
+.seeker-details-list li{
+    list-style: none !important;
+}
+
+.inner-box {
+     background: #fff none repeat scroll 0 0 !important; 
+    margin-bottom: 0;
+    padding: 20px 15px;
+}
+.footer-content {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    border-top: 1px solid rgba(0,0,0,.1);
+    font-size: 14px;
+    padding: 40px 0;
+    color: #333;
+     background: #03989e !important; 
+}
